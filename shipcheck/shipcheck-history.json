@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://mission-boba.vercel.app/",
+    "statusCode": 200,
+    "scannedAt": "2026-10-15T16:59:20.763Z",
+    "findings": [
+      {
+        "id": "https",
+        "title": "HTTPS",
+        "status": "pass",
+        "details": "The submitted URL uses HTTPS.",
+        "fix": "Use HTTPS with a valid TLS certificate."
+      },
+      {
+        "id": "strict-transport-security",
+        "title": "HTTP Strict Transport Security",
+        "status": "pass",
+        "details": "The strict-transport-security response header is present.",
+        "fix": "Configure Strict-Transport-Security on HTTPS responses."
+      },
+      {
+        "id": "content-security-policy",
+        "title": "Content Security Policy",
+        "status": "warning",
+        "details": "The content-security-policy response header was not found.",
+        "fix": "Configure a Content-Security-Policy suited to your site."
+      },
+      {
+        "id": "x-content-type-options",
+        "title": "Content Type Options",
+        "status": "warning",
+        "details": "The x-content-type-options response header was not found.",
+        "fix": "Set X-Content-Type-Options: nosniff."
+      },
+      {
+        "id": "x-frame-options",
+        "title": "Frame Protection",
+        "status": "warning",
+        "details": "The x-frame-options response header was not found.",
+        "fix": "Configure CSP frame-ancestors or X-Frame-Options."
+      }
+    ],
+    "id": "1792083560765 - b1gytc"
+  },
+  {
+    "url": "https://look-again-five.vercel.app/",
+    "statusCode": 200,
+    "scannedAt": "2026-10-15T16:36:24.328Z",
+    "findings": [
+      {
+        "id": "https",
+        "title": "HTTPS",
+        "status": "pass",
+        "details": "The submitted URL uses HTTPS.",
+        "fix": "Use HTTPS with a valid TLS certificate."
+      },
+      {
+        "id": "strict-transport-security",
+        "title": "HTTP Strict Transport Security",
+        "status": "pass",
+        "details": "The strict-transport-security response header is present.",
+        "fix": "Configure Strict-Transport-Security on HTTPS responses."
+      },
+      {
+        "id": "content-security-policy",
+        "title": "Content Security Policy",
+        "status": "warning",
+        "details": "The content-security-policy response header was not found.",
+        "fix": "Configure a Content-Security-Policy suited to your site."
+      },
+      {
+        "id": "x-content-type-options",
+        "title": "Content Type Options",
+        "status": "warning",
+        "details": "The x-content-type-options response header was not found.",
+        "fix": "Set X-Content-Type-Options: nosniff."
+      },
+      {
+        "id": "x-frame-options",
+        "title": "Frame Protection",
+        "status": "warning",
+        "details": "The x-frame-options response header was not found.",
+        "fix": "Configure CSP frame-ancestors or X-Frame-Options."
+      }
+    ],
+    "id": "1792082184331 - dx6rgm"
+  }
+]
