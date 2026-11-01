@@ -19,7 +19,7 @@ describe("validateUrl", () => {
     assert.equal(validateUrl("http://localhost:3000").valid, false);
  });
 
- it("rejects an invalid IPv4 address", () => {
+ it("rejects an private IPv4 address", () => {
     assert.equal(validateUrl("http://192.168.1.10").valid, false);
  });
  it("rejects ipv6 addresses", () => {
@@ -30,7 +30,7 @@ describe("validateUrl", () => {
  });
 
 it("rejects an IPv6 link-local address" , () => {
-   assert.equal(validateUrl("http://[fe80::1").valid, false);
+   assert.equal(validateUrl("http://[fe80::1]").valid, false);
  });
  it("rejects a link-local IPv4 address", () => {
    assert.equal(validateUrl("http://169.254.10.20").valid, false);
